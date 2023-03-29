@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Menu</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <section>
+    <nav>
+      <div class="nav-left">
+        <p> <strong id='title'>MENU </strong> </p>
+      </div>
+      <div class="nav-center">
+        <img class="logo rotate" src="https://parspng.com/wp-content/uploads/2022/12/coffeepng.parspng.com-5.png" alt="coffee icon" />
+      </div>
+      <div class="nav-right">
+        <select onchange="changeLanguage(event)" id="langSelect" name="language">
+          <option id="en" value="en">EN</option>
+          <option id="dk" value="dk">DK</option>
+        </select>
+      </div>
+    </nav>
+  </section>
+  <div class="menu">
+    <main>
+      <h1 class="title" id="cafeTitle">CAMPER CAFE</h1>
+      <p id="est" class="established">Est. 2020</p>
+      <hr>
+      <section>
+        <h2 id="secCoffee">Coffee</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" />
+        <article class="item">
+          <p id="coffeeFV" class="flavor">French Vanilla</p>
+          <p class="price">3.00</p>
+        </article>
+        <article class="item">
+          <p id="coffeeCM" class="flavor">Caramel Macchiato</p>
+          <p class="price">3.75</p>
+        </article>
+        <article class="item">
+          <p id="coffeePS" class="flavor">Pumpkin Spice</p>
+          <p class="price">3.50</p>
+        </article>
+        <article class="item">
+          <p id="coffeeH" class="flavor">Hazelnut</p>
+          <p class="price">4.00</p>
+        </article>
+        <article class="item">
+          <p id="coffeeM" class="flavor">Mocha</p>
+          <p class="price">4.50</p>
+        </article>
+      </section>
+      <section>
+        <h2 id="secDesserts">Desserts</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" />
+        <article class="item">
+          <p class="dessert">Donut</p>
+          <p class="price">1.50</p>
+        </article>
+        <article class="item">
+          <p id="dessertCP" class="dessert">Cherry Pie</p>
+          <p class="price">2.75</p>
+        </article>
+        <article class="item">
+          <p id="dessertC" class="dessert">Cheesecake</p>
+          <p class="price">3.00</p>
+        </article>
+        <article class="item">
+          <p id="dessertCR" class="dessert">Cinnamon Roll</p>
+          <p class="price">2.50</p>
+        </article>
+      </section>
+    </main>
+    <hr class="bottom-line">
+  </div>
+  <footer>
+  <div class="footer-section">
+    <h3 id="products">Products</h3>
+    <ul>
+      <li><a href="#">Our Coffee</a></li>
+      <li><a href="#">Our Desserts</a></li>
+      <li><a href="#">Delivery</a></li>
+    </ul>
+  </div>
+  <div class="footer-section">
+    <h3 id="camperCafe">Camper Cafe</h3>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Join Our Team!</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer-section">
+    <h3 id="legalActivities">Legal Activities</h3>
+    <ul>
+      <li><a href="#">Allergens</a></li>
+      <li><a href="#">Privacy Notice</a></li>
+      <li><a href="#">Sustainability</a></li>
+      <li><a href="#">Cookies's Policy</a></li>
+    </ul>
+  </div>
+  <div class="footer-section">
+    <h3 id="findUs">Find Us</h3>
+    <iframe       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9090.16567091578!2d8.720952334586599!3d55.27869529042011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b36981ad8f317%3A0x486e99603bb80bc0!2sAsyl%20Center%20Hviding!5e0!3m2!1sen!2sdk!4v1679890693419!5m2!1sen!2sdk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
